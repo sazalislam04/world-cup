@@ -117,6 +117,7 @@ button .fa-angle-right {
     background-color: var(--text-color);
     color: var(--bg-color);
     border-radius: 5px;
+    font-weight: 600;
 }
 
 .menu-bar>div a.active {
