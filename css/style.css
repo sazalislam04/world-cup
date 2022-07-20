@@ -324,6 +324,14 @@ footer .social-links ul li a:hover {
         margin-top: 50px;
     }
 
+    #header .hero .hero-content h1 {
+        font-size: 40px;
+    }
+
+    #header .hero .hero-content p {
+        font-size: 14px;
+    }
+
     #header .hero .hero-img img {
         width: 100%;
     }
