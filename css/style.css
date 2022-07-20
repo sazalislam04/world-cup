@@ -299,6 +299,7 @@ footer .social-links ul li a:hover {
     font-size: 17px;
     color: var(--text-color);
     background: var(--btn-color);
+    cursor: pointer;
 }
 
 /* Media Query */
@@ -314,7 +315,6 @@ footer .social-links ul li a:hover {
     }
 
     #header .hero {
-        /* border-radius: 0; */
         flex-direction: column;
         height: 100%;
         text-align: center;
