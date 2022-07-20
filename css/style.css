@@ -23,7 +23,6 @@ body {
 .container {
     width: 1040px;
     margin: 0 auto;
-    /* background-color: orange; */
 }
 
 a {
@@ -36,12 +35,9 @@ a {
 
 .row {
     display: flex;
-    /* gap: 40px; */
 }
 
 /* Button Styles */
-
-
 .btn {
     position: relative;
     width: 145px;
@@ -59,7 +55,6 @@ a {
 button .fa-angle-right {
     margin-left: 5px;
 }
-
 
 /* Hero styles */
 #header .hero {
@@ -138,7 +133,7 @@ button .fa-angle-right {
 }
 
 
-/* Grid card */
+/* Grid style in blog card */
 .card-body {
     display: grid;
     grid-template-columns: 250px 250px 250px;
@@ -249,8 +244,7 @@ footer .social-links ul li a:hover {
     ;
 }
 
-
-/* Upcoming css */
+/* Upcoming css styles */
 
 .flag {
     display: flex;
@@ -281,8 +275,7 @@ footer .social-links ul li a:hover {
     font-size: 15px;
 }
 
-
-/* view btn */
+/* Tab view btn */
 .button {
     text-align: center;
     margin-top: 50px;
@@ -401,6 +394,11 @@ footer .social-links ul li a:hover {
 
     .flag .germany img {
         width: 100%;
+    }
+
+    .card .card-detail h3,
+    span {
+        font-size: 30px;
     }
 
     footer h2 {
@@ -557,3 +555,6 @@ footer .social-links ul li a:hover {
         font-size: 40px;
     }
 }
+
+
+/* =============================== */
