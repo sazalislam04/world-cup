@@ -33,7 +33,8 @@ a {
     margin: 100px 0;
 }
 
-.row {
+.row,
+.d-flex {
     display: flex;
 }
 
@@ -459,6 +460,10 @@ footer .social-links ul li a:hover {
 
 
     /* ============ all group ============ */
+    .d-flex {
+        flex-direction: column;
+    }
+
     .all-card {
         flex-direction: column;
     }
@@ -624,9 +629,9 @@ footer .social-links ul li a:hover {
     }
 
     /* ====== all group ======= */
-
-    .all-card {
+    .d-flex {
         flex-direction: column;
+        align-items: center;
     }
 
     .card-qatar {
