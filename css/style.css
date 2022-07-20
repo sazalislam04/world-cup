@@ -324,6 +324,10 @@ footer .social-links ul li a:hover {
         margin-top: 50px;
     }
 
+    #header .hero .hero-img img {
+        width: 100%;
+    }
+
     .row {
         flex-direction: column;
     }
