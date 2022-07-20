@@ -382,6 +382,10 @@ footer .social-links ul li a:hover {
         margin-bottom: -7px;
     }
 
+    #header .hero .hero-img {
+        width: 350px;
+    }
+
     #header .hero .hero-img img {
         width: 100%;
     }
@@ -538,7 +542,6 @@ footer .social-links ul li a:hover {
     }
 
     #header .hero .hero-img {
-        width: 50%;
         margin-bottom: -47px;
     }
 
