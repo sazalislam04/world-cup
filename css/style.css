@@ -194,6 +194,41 @@ button .fa-angle-right {
     width: 100%;
 }
 
+
+/* all */
+.all-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.all-card .card-qatar {
+    width: 380px;
+    height: 100%;
+}
+
+.card-qatar {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    transition: .4s ease-in;
+}
+
+.card-qatar:hover {
+    transform: scale(.9);
+}
+
+.card-qatar img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-qatar h3 {
+    color: var(--bg-color);
+    padding: 20px 0;
+    margin: 0 10px;
+}
+
 /* Footer Styles */
 footer {
     background: var(--bg-color);
@@ -302,7 +337,7 @@ footer .social-links ul li a:hover {
     cursor: pointer;
 }
 
-/* Media Query */
+/* ============================ Media Query =============================*/
 /* #Mobile */
 @media only screen and (max-width: 800px) {
     .container {
@@ -422,6 +457,17 @@ footer .social-links ul li a:hover {
         font-size: 30px;
     }
 
+
+    /* all group */
+    .all-card {
+        flex-direction: column;
+    }
+
+    .all-card .card-qatar {
+        width: 100%;
+        text-align: center;
+    }
+
     footer h2 {
         font-size: 50px;
     }
@@ -443,7 +489,7 @@ footer .social-links ul li a:hover {
     }
 }
 
-
+/* ================== media query ================ */
 @media only screen and (min-width:801px) and (max-width: 1200px) {
     .container {
         width: 100%;
@@ -564,6 +610,17 @@ footer .social-links ul li a:hover {
         font-size: 20px;
     }
 
+    /* all group */
+
+    .all-card {
+        flex-direction: column;
+    }
+
+    .card-qatar {
+        text-align: center;
+        width: 100%;
+    }
+
     footer h2 {
         font-size: 50px;
     }
@@ -579,21 +636,3 @@ footer .social-links ul li a:hover {
 
 
 /* =============================== */
-
-
-
-/* all */
-.card-qatar {
-    margin-left: 50px;
-    width: 700px;
-    height: 100%;
-}
-
-.card-qatar img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.hero-img img {
-    width: 50%;
-}
