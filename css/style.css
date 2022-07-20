@@ -579,3 +579,21 @@ footer .social-links ul li a:hover {
 
 
 /* =============================== */
+
+
+
+/* all */
+.card-qatar {
+    margin-left: 50px;
+    width: 700px;
+    height: 100%;
+}
+
+.card-qatar img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-img img {
+    width: 50%;
+}
